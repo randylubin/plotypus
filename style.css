@@ -1,0 +1,58 @@
+@font-face {
+    font-family: hitchcock_font;
+    src: local(hitchcock_font), url('Hitchcock.ttf') format('opentype');
+}
+
+/* colors
+	beige: ;
+	maroon: 5C120F;
+	deep red: A71E23;
+
+*/
+
+
+body {
+	font-family: optima;
+	
+
+	background-color: Cornsilk;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -60px;
+}
+
+.push, .footer {
+	height: 70px;
+}
+
+.header {
+	background-color: #5C120F;
+	color: Cornsilk;
+}
+
+.header a:link, .header a:visited {
+	color: Cornsilk;
+}
+
+.header a:hover {
+	color: #A71E23;
+	text-decoration: none;
+}
+
+.main-content {
+	
+	color: black;
+}
+
+.title	{
+	font-size: 4.2em;
+}
+
+.hitchcock {
+	font-family: hitchcock_font;
+}
