@@ -18,12 +18,27 @@ body {
 	background-color: Cornsilk;
 }
 
+h1, h1, h3, .header h2 {
+	font-family: Raleway;
+}
+
 #wrap {
     min-height: 100%;
     height: auto !important;
     height: 100%;
     /* Negative indent footer by it's height */
-    margin: 0 auto -60px;
+    margin: 0 auto -70px;
+}
+
+.image-crop{
+	margin-top:15px;
+	width:auto;
+	height:230px;
+	overflow: hidden;
+}
+
+.card-photos{
+		
 }
 
 .push, .footer {
@@ -37,10 +52,12 @@ body {
 
 .header a:link, .header a:visited {
 	color: Cornsilk;
+	font-family: Raleway;
 }
 
 .header a:hover {
 	color: #A71E23;
+	font-family: Raleway;
 	text-decoration: none;
 }
 
@@ -55,4 +72,9 @@ body {
 
 .hitchcock {
 	font-family: hitchcock_font;
+}
+
+.intro-story {
+	font-style: italic;
+	margin-top: 20px;
 }
