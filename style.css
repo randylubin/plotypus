@@ -15,10 +15,10 @@ body {
 	font-family: optima;
 	
 
-	background-color: Cornsilk;
+	background-color: #FFFBEC;
 }
 
-h1, h1, h3, .header h2 {
+h1, h2, h3, h4 {
 	font-family: Raleway;
 }
 
@@ -47,11 +47,11 @@ h1, h1, h3, .header h2 {
 
 .header {
 	background-color: #5C120F;
-	color: Cornsilk;
+	color: #FFFBEC;
 }
 
 .header a:link, .header a:visited {
-	color: Cornsilk;
+	color: #FFFBEC;
 	font-family: Raleway;
 }
 
@@ -67,7 +67,7 @@ h1, h1, h3, .header h2 {
 }
 
 .title	{
-	font-size: 4.2em;
+	font-size: 3em;
 }
 
 .hitchcock {
