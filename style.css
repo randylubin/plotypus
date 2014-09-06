@@ -38,6 +38,8 @@ h1, h2, h3, h4 {
 }
 
 .card-photos{
+	max-width: 500px;
+	margin: auto;
 		
 }
 
