@@ -4,7 +4,7 @@
 }
 
 /* colors
-	beige: ;
+	orange: F48220;
 	maroon: 5C120F;
 	deep red: A71E23;
 
@@ -30,6 +30,10 @@ h1, h2, h3, h4 {
 	background-color: #A71E23;
 	color: white;
 	font-size: 1.5em;
+}
+
+.red-background a:link, .red-background a:hover {
+	color:#F48220;
 }
 
 #wrap {
@@ -61,6 +65,15 @@ h1, h2, h3, h4 {
 
 .footer-trap {
 	border-bottom: 100px solid #A71F23;
+	border-left: 2000px solid transparent;
+	border-right: 0px solid transparent;
+	margin-bottom:70px;
+	height: 0;
+	width: auto;
+}
+
+.red-trap-top {
+	border-bottom: 100px solid #A71F23;
 	border-left: 0px solid transparent;
 	border-right: 2000px solid transparent;
 	height: 0;
@@ -75,6 +88,14 @@ h1, h2, h3, h4 {
 	width: auto;	
 }
 
+.orange-trap-top {
+	border-bottom: 100px solid #F48220;
+	border-left: 0px solid transparent;
+	border-right: 2000px solid transparent;
+	height: 0;
+	width: auto;	
+}
+
 .footer a:link, .footer a:visited {
 	color: white;
 	font-family: Raleway;
@@ -82,6 +103,7 @@ h1, h2, h3, h4 {
 
 .header {
 	background-color: #5C120F;
+	margin-bottom:15px;
 	color: white;
 }
 
@@ -98,7 +120,7 @@ h1, h2, h3, h4 {
 }
 
 a:link, a:visited {
-	color: orange;
+	color: #A71E23;
 }
 
 .main-content {
@@ -119,9 +141,22 @@ a:link, a:visited {
 	margin-top: 20px;
 }
 
+.footer {
+	background-color: #A71E23;
+	padding-top:5px;
+}
+
+.print-section {
+	background-color: #F48220;
+	color:white;
+}
+
+.print-section a:link, .print-section a:visited {
+	color: #5C120F;
+}
+
 /* MailChimp Form Embed Code - Slim - 08/17/2011 */
-#mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
-#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
+
 #mc_embed_signup input {border:1px solid #999; -webkit-appearance:none;}
 #mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
 #mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
