@@ -65,7 +65,7 @@ h1, h2, h3, h4 {
 
 .footer-trap {
 	border-bottom: 100px solid #A71F23;
-	border-left: 100vmax solid transparent;
+	border-left: 100vw solid transparent;
 	border-right: 0px solid transparent;
 	margin-bottom:70px;
 	height: 0;
@@ -75,7 +75,7 @@ h1, h2, h3, h4 {
 .red-trap-top {
 	border-bottom: 100px solid #A71F23;
 	border-left: 0px solid transparent;
-	border-right: 100vmax solid transparent;
+	border-right: 100vw solid transparent;
 	height: 0;
 	width: auto;
 }
@@ -83,7 +83,7 @@ h1, h2, h3, h4 {
 .trap-bottom {
 	border-top: 80px solid #A71F23;
 	border-left: 0px solid transparent;
-	border-right: 100vmax solid transparent;
+	border-right: 100vw solid transparent;
 	height: 0;
 	width: auto;	
 }
@@ -91,7 +91,7 @@ h1, h2, h3, h4 {
 .orange-trap-top {
 	border-bottom: 100px solid #F48220;
 	border-left: 0px solid transparent;
-	border-right: 100vmax solid transparent;
+	border-right: 100vw solid transparent;
 	height: 0;
 	width: auto;	
 }
