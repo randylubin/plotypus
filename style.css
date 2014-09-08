@@ -13,13 +13,23 @@
 
 body {
 	font-family: optima;
-	
 
-	background-color: #FFFBEC;
+	background-color: white;
 }
 
 h1, h2, h3, h4 {
 	font-family: Raleway;
+}
+
+.row {
+	max-width: 800px;
+	margin: auto;
+}
+
+.red-background {
+	background-color: #A71E23;
+	color: white;
+	font-size: 1.5em;
 }
 
 #wrap {
@@ -45,27 +55,55 @@ h1, h2, h3, h4 {
 
 .push, .footer {
 	height: 70px;
+	background-color: transparent;
+	padding-top: 17px;
+}
+
+.footer-trap {
+	border-bottom: 100px solid #A71F23;
+	border-left: 0px solid transparent;
+	border-right: 2000px solid transparent;
+	height: 0;
+	width: auto;
+}
+
+.trap-bottom {
+	border-top: 80px solid #A71F23;
+	border-left: 0px solid transparent;
+	border-right: 2000px solid transparent;
+	height: 0;
+	width: auto;	
+}
+
+.footer a:link, .footer a:visited {
+	color: white;
+	font-family: Raleway;
 }
 
 .header {
 	background-color: #5C120F;
-	color: #FFFBEC;
+	color: white;
 }
 
 .header a:link, .header a:visited {
-	color: #FFFBEC;
+	color: white;
 	font-family: Raleway;
 }
 
 .header a:hover {
-	color: #A71E23;
+	color: #A71F23;
 	font-family: Raleway;
 	text-decoration: none;
+
+}
+
+a:link, a:visited {
+	color: orange;
 }
 
 .main-content {
-	
 	color: black;
+	font-size: 1.5em;
 }
 
 .title	{
