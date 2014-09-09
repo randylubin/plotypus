@@ -148,11 +148,11 @@ a:link, a:visited {
 
 .print-section {
 	background-color: #F48220;
-	color:white;
+	color: #5C120F;
 }
 
 .print-section a:link, .print-section a:visited {
-	color: #5C120F;
+	color: #A71E23;
 }
 
 /* MailChimp Form Embed Code - Slim - 08/17/2011 */
