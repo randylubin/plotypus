@@ -32,9 +32,10 @@ h1, h2, h3, h4 {
 	font-size: 1.5em;
 }
 
-.red-background a:link, .red-background a:hover {
+.red-background a:link, .red-background a:visited {
 	color:#F48220;
 }
+
 
 #wrap {
     min-height: 100%;
